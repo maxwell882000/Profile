@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "861710922944",
+    "project_id": "itcase-fde40",
+    "storage_bucket": "itcase-fde40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861710922944:android:d2dace3cdac92b5fd52925",
+        "android_client_info": {
+          "package_name": "com.itcase.itcase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "861710922944-mfm9gpm2q72hfej226egkj2ek2sdk0a3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJL6RZfvz57BSmNoFOlwDmq3rWxYssf1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "861710922944-mfm9gpm2q72hfej226egkj2ek2sdk0a3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

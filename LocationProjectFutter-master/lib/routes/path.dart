@@ -1,0 +1,33 @@
+class Path {
+  static const INITIAL = "/";
+  static const LOGIN = "/login";
+  static const REGISTER_USER = "/register-user";
+  static const REGISTER_CHOOSE = "/register-choose";
+  static const CHOOSE_LOCATION = "/specialist-choose-location";
+  static const REGISTER_SPECIALIST = "/register-specialist";
+  static const REGISTER_USER_FIRST = "/register-user-first";
+  static const MAIN = "/main";
+  static const SEARCH = "/search-new";
+  static const SPECIALIST_LIST = "/specialist-search";
+  static const SPECIALIST_PROFILE = "/specialist-profile";
+  static const LOCATION_LIST = "/location-list";
+  static const LOCATION_PROFILE = '/location-profile';
+  static const CATEGORY_LIST = "/category-list";
+  static const CATEGORY_PROFILE = "/category-profile";
+  static const LOCATION_COMMENT = "/comment-location";
+  static const PHONE_VALIDATION = "/phone-validation";
+  static const LOCATION_FORM = "/location-create";
+  static const EDIT_USER = "/user-edit";
+  static const EDIT_SPECIALIST = "/user-specialist-edit";
+  static const CHANGE_PASSWORD = "/password-change";
+  static const TEST = "/test";
+  static const CONFIDENTIAL = "/confidential";
+  static const NOT_INTERNET = "/not-internet";
+  static const GEOCODING = "/geocoding";
+  static const SEARCH_CITY = "/search-city";
+  static const PAYMENT = "/payment";
+  static const SALES_TEXT = '/sales-text';
+  static const FORGET_PASSWORD = "/forget-password";
+  static const FORGET_PASSWORD_CODE_VERIFICATION = "/forget-password-code-verification";
+  static const FORGET_PHONE = "/forget-phone";
+}

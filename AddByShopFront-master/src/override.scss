@@ -1,0 +1,159 @@
+.btn-primary {
+  border-color: var(--blue);
+  background: var(--blue);
+}
+
+.btn {
+  border-radius: 12px;
+}
+
+.main-page__custom-tabs {
+  li.nav-item {
+    margin-right: 10px;
+
+    .nav-link {
+      background-color: white;
+      color: black;
+      border-radius: 7px !important;
+    }
+
+    .tab-header-active {
+      background-color: var(--blue) !important;
+      color: white !important;
+    }
+  }
+}
+
+.btn-check:focus + .btn, .btn:focus {
+  box-shadow: none !important;
+}
+
+.splide__pagination__page.is-active {
+  background-color: #007AFF !important;
+  transform: none;
+}
+
+.custom-arrows {
+  button.splide__arrow--prev {
+    margin-left: -50px;
+  }
+
+  button.splide__arrow--next {
+    margin-right: -50px;
+  }
+}
+
+.about-item {
+  .nav-tabs {
+    border: none !important;
+  }
+
+  .nav-link {
+    padding-left: 0 !important;
+    border: none !important;
+  }
+
+  .active-tab {
+    * {
+      color: black !important;
+    }
+  }
+}
+
+.btn-light {
+  background: #F2F2F2 !important;
+  /* Gray 6 */
+
+  border: 1px solid #F2F2F2 !important;
+  border-radius: 8px !important;
+}
+
+.bg-light {
+  background: #F6F6F6;
+}
+
+.nav-tabs {
+  border-bottom: none;
+
+  .left-tabs {
+    height: 100%;
+    overflow-y: auto;
+    padding-bottom: 20px;
+
+    ul {
+      margin-right: 0 !important;
+
+      .nav-item a {
+        display: flex;
+        align-items: center;
+        color: black !important;
+
+        svg {
+          margin-right: 5px;
+
+          path {
+            stroke: black !important;
+          }
+        }
+
+        &.active {
+          color: var(--violet) !important;
+
+          svg path {
+            stroke: var(--violet) !important;
+          }
+        }
+      }
+    }
+  }
+
+  .tab-content {
+    padding-left: 20px;
+  }
+
+  .card-header {
+    border-bottom: none;
+  }
+}
+
+.text-violet, .text-violet * {
+  color: var(--violet) !important;
+}
+
+.user-tabs {
+  .tab-content {
+    width: 100%;
+
+    .tab-pane {
+      padding: 5px;
+      @media (max-width: 768px) {
+        padding: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .user-tabs {
+    flex-direction: column;
+
+    .card-header {
+      width: 100% !important;
+
+      ul.nav-pills {
+        flex-direction: row !important;
+        flex-wrap: nowrap;
+        overflow: scroll;
+        padding-bottom: 5px;
+
+        li.nav-item {
+          min-width: 160px;
+
+          a {
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+}

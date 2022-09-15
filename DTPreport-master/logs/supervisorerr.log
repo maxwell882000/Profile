@@ -1,0 +1,1528 @@
+[2021-03-11 11:57:49 +0000] [69871] [INFO] Starting gunicorn 20.0.4
+[2021-03-11 11:57:49 +0000] [69871] [INFO] Listening at: http://127.0.0.1:46710 (69871)
+[2021-03-11 11:57:49 +0000] [69871] [INFO] Using worker: sync
+[2021-03-11 11:57:49 +0000] [69874] [INFO] Booting worker with pid: 69874
+[2021-03-11 11:57:59 +0000] [69874] [INFO] Worker exiting (pid: 69874)
+[2021-03-11 11:57:59 +0000] [69871] [INFO] Handling signal: term
+[2021-03-11 11:57:59 +0000] [69871] [INFO] Shutting down: Master
+[2021-03-11 11:58:01 +0000] [69879] [INFO] Starting gunicorn 20.0.4
+[2021-03-11 11:58:01 +0000] [69879] [INFO] Listening at: http://127.0.0.1:46710 (69879)
+[2021-03-11 11:58:01 +0000] [69879] [INFO] Using worker: sync
+[2021-03-11 11:58:01 +0000] [69882] [INFO] Booting worker with pid: 69882
+Internal Server Error: /report/ajax/verifyPkcs7/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 102, in verifyPkcs7
+    get_verifyPkcs7(report_id)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 68, in get_verifyPkcs7
+    signers = get_json["pkcs7Info"]["signers"][0]
+KeyError: 'pkcs7Info'
+Not Found: /robots.txt
+[2021-03-11 12:16:12 +0000] [69882] [INFO] Worker exiting (pid: 69882)
+[2021-03-11 12:16:12 +0000] [69879] [INFO] Handling signal: term
+[2021-03-11 12:16:13 +0000] [69879] [INFO] Shutting down: Master
+[2021-03-11 12:16:13 +0000] [70182] [INFO] Starting gunicorn 20.0.4
+[2021-03-11 12:16:13 +0000] [70182] [INFO] Listening at: http://127.0.0.1:46710 (70182)
+[2021-03-11 12:16:13 +0000] [70182] [INFO] Using worker: sync
+[2021-03-11 12:16:13 +0000] [70185] [INFO] Booting worker with pid: 70185
+Internal Server Error: /report/ajax/verifyPkcs7/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 101, in verifyPkcs7
+    get_verifyPkcs7(report_id)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 67, in get_verifyPkcs7
+    signers = get_json["pkcs7Info"]["signers"][0]
+KeyError: 'pkcs7Info'
+Internal Server Error: /report/ajax/verifyPkcs7/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 101, in verifyPkcs7
+    get_verifyPkcs7(report_id)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 67, in get_verifyPkcs7
+    signers = get_json["pkcs7Info"]["signers"][0]
+KeyError: 'pkcs7Info'
+[2021-03-11 12:29:18 +0000] [70182] [INFO] Handling signal: term
+[2021-03-11 12:29:18 +0000] [70185] [INFO] Worker exiting (pid: 70185)
+[2021-03-11 12:29:18 +0000] [70182] [INFO] Shutting down: Master
+[2021-03-11 12:29:19 +0000] [70538] [INFO] Starting gunicorn 20.0.4
+[2021-03-11 12:29:19 +0000] [70538] [INFO] Listening at: http://127.0.0.1:46710 (70538)
+[2021-03-11 12:29:19 +0000] [70538] [INFO] Using worker: sync
+[2021-03-11 12:29:19 +0000] [70541] [INFO] Booting worker with pid: 70541
+Internal Server Error: /report/ajax/verifyPkcs7/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 103, in verifyPkcs7
+    get_verifyPkcs7(report_id)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 69, in get_verifyPkcs7
+    signers = get_json["pkcs7Info"]["signers"][0]
+KeyError: 'pkcs7Info'
+Internal Server Error: /report/ajax/verifyPkcs7/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 103, in verifyPkcs7
+    get_verifyPkcs7(report_id)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 69, in get_verifyPkcs7
+    signers = get_json["pkcs7Info"]["signers"][0]
+KeyError: 'pkcs7Info'
+[2021-03-11 12:32:54 +0000] [70538] [INFO] Handling signal: term
+[2021-03-11 12:32:54 +0000] [70541] [INFO] Worker exiting (pid: 70541)
+[2021-03-11 12:32:54 +0000] [70538] [INFO] Shutting down: Master
+[2021-03-11 12:32:54 +0000] [70758] [INFO] Starting gunicorn 20.0.4
+[2021-03-11 12:32:55 +0000] [70758] [INFO] Listening at: http://127.0.0.1:46710 (70758)
+[2021-03-11 12:32:55 +0000] [70758] [INFO] Using worker: sync
+[2021-03-11 12:32:55 +0000] [70761] [INFO] Booting worker with pid: 70761
+[2021-03-11 12:34:03 +0000] [70761] [INFO] Worker exiting (pid: 70761)
+[2021-03-11 12:34:03 +0000] [70758] [INFO] Handling signal: term
+[2021-03-11 12:34:03 +0000] [70758] [INFO] Shutting down: Master
+[2021-03-11 12:34:04 +0000] [70883] [INFO] Starting gunicorn 20.0.4
+[2021-03-11 12:34:04 +0000] [70883] [INFO] Listening at: http://127.0.0.1:46710 (70883)
+[2021-03-11 12:34:04 +0000] [70883] [INFO] Using worker: sync
+[2021-03-11 12:34:04 +0000] [70886] [INFO] Booting worker with pid: 70886
+Internal Server Error: /report/ajax/verifyPkcs7/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connection.py", line 170, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/util/connection.py", line 96, in create_connection
+    raise err
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/util/connection.py", line 86, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connectionpool.py", line 394, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connection.py", line 234, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.6/http/client.py", line 1281, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1327, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1276, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1042, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 980, in send
+    self.connect()
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connection.py", line 200, in connect
+    conn = self._new_conn()
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connection.py", line 182, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7efe484b6198>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/util/retry.py", line 573, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=9090): Max retries exceeded with url: /dsvs/pkcs7/v1?WSDL (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7efe484b6198>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 103, in verifyPkcs7
+    get_verifyPkcs7(report_id)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 49, in get_verifyPkcs7
+    response = requests.post(url, data=body, headers=headers)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=9090): Max retries exceeded with url: /dsvs/pkcs7/v1?WSDL (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7efe484b6198>: Failed to establish a new connection: [Errno 111] Connection refused',))
+Internal Server Error: /report/ajax/verifyPkcs7/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connection.py", line 170, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/util/connection.py", line 96, in create_connection
+    raise err
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/util/connection.py", line 86, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connectionpool.py", line 394, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connection.py", line 234, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.6/http/client.py", line 1281, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1327, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1276, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1042, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 980, in send
+    self.connect()
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connection.py", line 200, in connect
+    conn = self._new_conn()
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connection.py", line 182, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7efe4839be80>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/util/retry.py", line 573, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=9090): Max retries exceeded with url: /dsvs/pkcs7/v1?WSDL (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7efe4839be80>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 103, in verifyPkcs7
+    get_verifyPkcs7(report_id)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 49, in get_verifyPkcs7
+    response = requests.post(url, data=body, headers=headers)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=9090): Max retries exceeded with url: /dsvs/pkcs7/v1?WSDL (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7efe4839be80>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[2021-03-11 12:34:37 +0000] [70886] [INFO] Worker exiting (pid: 70886)
+[2021-03-11 12:34:37 +0000] [70883] [INFO] Handling signal: term
+[2021-03-11 12:34:37 +0000] [70883] [INFO] Shutting down: Master
+[2021-03-11 12:34:37 +0000] [70893] [INFO] Starting gunicorn 20.0.4
+[2021-03-11 12:34:37 +0000] [70893] [INFO] Listening at: http://127.0.0.1:46710 (70893)
+[2021-03-11 12:34:37 +0000] [70893] [INFO] Using worker: sync
+[2021-03-11 12:34:37 +0000] [70896] [INFO] Booting worker with pid: 70896
+[2021-03-11 12:34:47 +0000] [70896] [INFO] Worker exiting (pid: 70896)
+[2021-03-11 12:34:47 +0000] [70893] [INFO] Handling signal: term
+[2021-03-11 12:34:47 +0000] [70893] [INFO] Shutting down: Master
+[2021-03-11 12:34:49 +0000] [70902] [INFO] Starting gunicorn 20.0.4
+[2021-03-11 12:34:49 +0000] [70902] [INFO] Listening at: http://127.0.0.1:46710 (70902)
+[2021-03-11 12:34:49 +0000] [70902] [INFO] Using worker: sync
+[2021-03-11 12:34:49 +0000] [70905] [INFO] Booting worker with pid: 70905
+Internal Server Error: /report/ajax/verifyPkcs7/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connection.py", line 170, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/util/connection.py", line 96, in create_connection
+    raise err
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/util/connection.py", line 86, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connectionpool.py", line 394, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connection.py", line 234, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.6/http/client.py", line 1281, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1327, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1276, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1042, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 980, in send
+    self.connect()
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connection.py", line 200, in connect
+    conn = self._new_conn()
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connection.py", line 182, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f976dcb5c88>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/util/retry.py", line 573, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=9090): Max retries exceeded with url: /dsvs/pkcs7/v1?WSDL (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f976dcb5c88>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 103, in verifyPkcs7
+    get_verifyPkcs7(report_id)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 49, in get_verifyPkcs7
+    response = requests.post(url, data=body, headers=headers)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=9090): Max retries exceeded with url: /dsvs/pkcs7/v1?WSDL (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f976dcb5c88>: Failed to establish a new connection: [Errno 111] Connection refused',))
+Internal Server Error: /report/ajax/verifyPkcs7/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connection.py", line 170, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/util/connection.py", line 96, in create_connection
+    raise err
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/util/connection.py", line 86, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connectionpool.py", line 394, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connection.py", line 234, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.6/http/client.py", line 1281, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1327, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1276, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1042, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 980, in send
+    self.connect()
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connection.py", line 200, in connect
+    conn = self._new_conn()
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connection.py", line 182, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f976dbade48>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/util/retry.py", line 573, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=9090): Max retries exceeded with url: /dsvs/pkcs7/v1?WSDL (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f976dbade48>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 103, in verifyPkcs7
+    get_verifyPkcs7(report_id)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 49, in get_verifyPkcs7
+    response = requests.post(url, data=body, headers=headers)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=9090): Max retries exceeded with url: /dsvs/pkcs7/v1?WSDL (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f976dbade48>: Failed to establish a new connection: [Errno 111] Connection refused',))
+Internal Server Error: /report/ajax/verifyPkcs7/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connection.py", line 170, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/util/connection.py", line 96, in create_connection
+    raise err
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/util/connection.py", line 86, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connectionpool.py", line 394, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connection.py", line 234, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.6/http/client.py", line 1281, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1327, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1276, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1042, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 980, in send
+    self.connect()
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connection.py", line 200, in connect
+    conn = self._new_conn()
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connection.py", line 182, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f976dbcf940>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/util/retry.py", line 573, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=9090): Max retries exceeded with url: /dsvs/pkcs7/v1?WSDL (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f976dbcf940>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 103, in verifyPkcs7
+    get_verifyPkcs7(report_id)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 49, in get_verifyPkcs7
+    response = requests.post(url, data=body, headers=headers)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=9090): Max retries exceeded with url: /dsvs/pkcs7/v1?WSDL (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f976dbcf940>: Failed to establish a new connection: [Errno 111] Connection refused',))
+Internal Server Error: /report/ajax/verifyPkcs7/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 103, in verifyPkcs7
+    get_verifyPkcs7(report_id)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 86, in get_verifyPkcs7
+    report.pdf_qr_code_user = qr_code(success, signature, signAlgName, statusUpdateAt, LINK,serialNumber)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 11, in qr_code
+    success=success, signature=signature, signAlgName=signAlgName, updateAt=updateAt, link=link)
+KeyError: 'serialNumber'
+Internal Server Error: /report/ajax/verifyPkcs7/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 103, in verifyPkcs7
+    get_verifyPkcs7(report_id)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 86, in get_verifyPkcs7
+    report.pdf_qr_code_user = qr_code(success, signature, signAlgName, statusUpdateAt, LINK,serialNumber)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 11, in qr_code
+    success=success, signature=signature, signAlgName=signAlgName, updateAt=updateAt, link=link)
+KeyError: 'serialNumber'
+[2021-03-11 12:45:34 +0000] [70902] [INFO] Handling signal: term
+[2021-03-11 12:45:34 +0000] [70905] [INFO] Worker exiting (pid: 70905)
+[2021-03-11 12:45:35 +0000] [70902] [INFO] Shutting down: Master
+[2021-03-11 12:45:35 +0000] [71160] [INFO] Starting gunicorn 20.0.4
+[2021-03-11 12:45:35 +0000] [71160] [INFO] Listening at: http://127.0.0.1:46710 (71160)
+[2021-03-11 12:45:35 +0000] [71160] [INFO] Using worker: sync
+[2021-03-11 12:45:35 +0000] [71163] [INFO] Booting worker with pid: 71163
+Internal Server Error: /report/ajax/verifyPkcs7/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 103, in verifyPkcs7
+    get_verifyPkcs7(report_id)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 78, in get_verifyPkcs7
+    statusUpdateAt = signers['statusUpdatedAt']
+KeyError: 'statusUpdatedAt'
+Internal Server Error: /report/ajax/verifyPkcs7/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 103, in verifyPkcs7
+    get_verifyPkcs7(report_id)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 78, in get_verifyPkcs7
+    statusUpdateAt = signers['statusUpdatedAt']
+KeyError: 'statusUpdatedAt'
+Internal Server Error: /report/ajax/verifyPkcs7/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 103, in verifyPkcs7
+    }
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 78, in get_verifyPkcs7
+KeyError: 'statusUpdatedAt'
+Internal Server Error: /report/ajax/verifyPkcs7/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 103, in verifyPkcs7
+    }
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 78, in get_verifyPkcs7
+KeyError: 'statusUpdatedAt'
+[2021-03-11 12:54:46 +0000] [71160] [INFO] Handling signal: term
+[2021-03-11 12:54:46 +0000] [71163] [INFO] Worker exiting (pid: 71163)
+[2021-03-11 12:54:46 +0000] [71160] [INFO] Shutting down: Master
+[2021-03-11 12:54:46 +0000] [71349] [INFO] Starting gunicorn 20.0.4
+[2021-03-11 12:54:46 +0000] [71349] [INFO] Listening at: http://127.0.0.1:46710 (71349)
+[2021-03-11 12:54:46 +0000] [71349] [INFO] Using worker: sync
+[2021-03-11 12:54:46 +0000] [71352] [INFO] Booting worker with pid: 71352
+Internal Server Error: /pdf/11/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/vid/makereport/DTPreport/pdf_report/views.py", line 16, in get
+    get_response(request, id)
+  File "/home/vid/makereport/DTPreport/pdf_report/views.py", line 42, in get_response
+    pdf.generate(context)
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 602, in generate
+    self.parse()
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 576, in parse
+    self.parser.Parse(self.xml)
+  File "../Modules/pyexpat.c", line 284, in CharacterData
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 560, in handler
+    method(cdata)
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 668, in barcode_cdata
+    b = self.barcode_stack.pop()
+IndexError: pop from empty list
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/script.js
+Internal Server Error: /pdf/11/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/vid/makereport/DTPreport/pdf_report/views.py", line 16, in get
+    get_response(request, id)
+  File "/home/vid/makereport/DTPreport/pdf_report/views.py", line 42, in get_response
+    pdf.generate(context)
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 602, in generate
+    self.parse()
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 576, in parse
+    self.parser.Parse(self.xml)
+  File "../Modules/pyexpat.c", line 284, in CharacterData
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 560, in handler
+    method(cdata)
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 668, in barcode_cdata
+    b = self.barcode_stack.pop()
+IndexError: pop from empty list
+Internal Server Error: /report/ajax/verifyPkcs7/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 100, in verifyPkcs7
+    get_verifyPkcs7(report_id)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 56, in get_verifyPkcs7
+    my_file.write(formatted_output)
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 315-322: ordinal not in range(128)
+Internal Server Error: /report/ajax/verifyPkcs7/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 100, in verifyPkcs7
+    get_verifyPkcs7(report_id)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 56, in get_verifyPkcs7
+    my_file.write(formatted_output)
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 315-322: ordinal not in range(128)
+Internal Server Error: /pdf/11/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/vid/makereport/DTPreport/pdf_report/views.py", line 16, in get
+    get_response(request, id)
+  File "/home/vid/makereport/DTPreport/pdf_report/views.py", line 42, in get_response
+    pdf.generate(context)
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 602, in generate
+    self.parse()
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 576, in parse
+    self.parser.Parse(self.xml)
+  File "../Modules/pyexpat.c", line 284, in CharacterData
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 560, in handler
+    method(cdata)
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 668, in barcode_cdata
+    b = self.barcode_stack.pop()
+IndexError: pop from empty list
+Internal Server Error: /pdf/11/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/vid/makereport/DTPreport/pdf_report/views.py", line 16, in get
+    get_response(request, id)
+  File "/home/vid/makereport/DTPreport/pdf_report/views.py", line 42, in get_response
+    pdf.generate(context)
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 602, in generate
+    self.parse()
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 576, in parse
+    self.parser.Parse(self.xml)
+  File "../Modules/pyexpat.c", line 284, in CharacterData
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 560, in handler
+    method(cdata)
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 668, in barcode_cdata
+    b = self.barcode_stack.pop()
+IndexError: pop from empty list
+[2021-03-12 17:32:30 +0000] [93647] [INFO] Starting gunicorn 20.0.4
+[2021-03-12 17:32:30 +0000] [93647] [INFO] Listening at: http://127.0.0.1:46710 (93647)
+[2021-03-12 17:32:30 +0000] [93647] [INFO] Using worker: sync
+[2021-03-12 17:32:30 +0000] [93650] [INFO] Booting worker with pid: 93650
+Internal Server Error: /report/ajax/get_service_ajax/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 158, in get_service_ajax
+    print(get_brand_nph(request))
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 223, in get_brand_nph
+    norm_per_hour = service.BRANDS.get(brand).value_from_object(service)
+AttributeError: 'NoneType' object has no attribute 'value_from_object'
+Internal Server Error: /report/ajax/get_service_ajax/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 158, in get_service_ajax
+    print(get_brand_nph(request))
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 223, in get_brand_nph
+    norm_per_hour = service.BRANDS.get(brand).value_from_object(service)
+AttributeError: 'NoneType' object has no attribute 'value_from_object'
+Internal Server Error: /report/ajax/get_service_ajax/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 158, in get_service_ajax
+    print(get_brand_nph(request))
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 223, in get_brand_nph
+    norm_per_hour = service.BRANDS.get(brand).value_from_object(service)
+AttributeError: 'NoneType' object has no attribute 'value_from_object'
+Internal Server Error: /report/ajax/get_service_ajax/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 158, in get_service_ajax
+    print(get_brand_nph(request))
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 223, in get_brand_nph
+    norm_per_hour = service.BRANDS.get(brand).value_from_object(service)
+AttributeError: 'NoneType' object has no attribute 'value_from_object'
+Internal Server Error: /report/ajax/verifyPkcs7/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 102, in verifyPkcs7
+    get_verifyPkcs7(report_id)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 83, in get_verifyPkcs7
+    LINK = "https://e-otsenka.uz{}".format(report.pdf_report.url)  # Here is the link
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/db/models/fields/files.py", line 61, in url
+    self._require_file()
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/db/models/fields/files.py", line 38, in _require_file
+    raise ValueError("The '%s' attribute has no file associated with it." % self.field.name)
+ValueError: The 'pdf_report' attribute has no file associated with it.
+Internal Server Error: /pdf/12/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/vid/makereport/DTPreport/pdf_report/views.py", line 22, in get
+    get_response(request, id)
+  File "/home/vid/makereport/DTPreport/pdf_report/views.py", line 57, in get_response
+    pdf.generate(context)
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 601, in generate
+    self.jinja2(context)
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 573, in jinja2
+    template = env.get_template(self.template)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/jinja2/environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/jinja2/environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/jinja2/loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/jinja2/loaders.py", line 197, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: _1.xml
+Invalid HTTP_HOST header: '185.196.214.176'. You may need to add '185.196.214.176' to ALLOWED_HOSTS.
+Bad Request: /owa/
+[2021-03-12 17:49:49 +0000] [93650] [INFO] Worker exiting (pid: 93650)
+[2021-03-12 17:49:49 +0000] [93647] [INFO] Handling signal: term
+[2021-03-12 17:49:50 +0000] [93647] [INFO] Shutting down: Master
+[2021-03-12 17:49:50 +0000] [93870] [INFO] Starting gunicorn 20.0.4
+[2021-03-12 17:49:50 +0000] [93870] [INFO] Listening at: http://127.0.0.1:46710 (93870)
+[2021-03-12 17:49:50 +0000] [93870] [INFO] Using worker: sync
+[2021-03-12 17:49:50 +0000] [93873] [INFO] Booting worker with pid: 93873
+Internal Server Error: /report/ajax/verifyPkcs7/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connection.py", line 170, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/util/connection.py", line 96, in create_connection
+    raise err
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/util/connection.py", line 86, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connectionpool.py", line 394, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connection.py", line 234, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.6/http/client.py", line 1281, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1327, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1276, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1042, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 980, in send
+    self.connect()
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connection.py", line 200, in connect
+    conn = self._new_conn()
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connection.py", line 182, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f6646ac2cf8>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/util/retry.py", line 573, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=9090): Max retries exceeded with url: /dsvs/pkcs7/v1?WSDL (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6646ac2cf8>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 103, in verifyPkcs7
+    get_verifyPkcs7(report_id)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 51, in get_verifyPkcs7
+    response = requests.post(url, data=body, headers=headers)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=9090): Max retries exceeded with url: /dsvs/pkcs7/v1?WSDL (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6646ac2cf8>: Failed to establish a new connection: [Errno 111] Connection refused',))
+Internal Server Error: /report/ajax/verifyPkcs7/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connection.py", line 170, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/util/connection.py", line 96, in create_connection
+    raise err
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/util/connection.py", line 86, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connectionpool.py", line 394, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connection.py", line 234, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.6/http/client.py", line 1281, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1327, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1276, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1042, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 980, in send
+    self.connect()
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connection.py", line 200, in connect
+    conn = self._new_conn()
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connection.py", line 182, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f66469a2390>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/urllib3/util/retry.py", line 573, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=9090): Max retries exceeded with url: /dsvs/pkcs7/v1?WSDL (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f66469a2390>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 103, in verifyPkcs7
+    get_verifyPkcs7(report_id)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 51, in get_verifyPkcs7
+    response = requests.post(url, data=body, headers=headers)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=9090): Max retries exceeded with url: /dsvs/pkcs7/v1?WSDL (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f66469a2390>: Failed to establish a new connection: [Errno 111] Connection refused',))
+Internal Server Error: /report/ajax/verifyPkcs7/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 103, in verifyPkcs7
+    get_verifyPkcs7(report_id)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 84, in get_verifyPkcs7
+    LINK = "https://e-otsenka.uz{}".format(report.pdf_report.url)  # Here is the link
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/db/models/fields/files.py", line 61, in url
+    self._require_file()
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/db/models/fields/files.py", line 38, in _require_file
+    raise ValueError("The '%s' attribute has no file associated with it." % self.field.name)
+ValueError: The 'pdf_report' attribute has no file associated with it.
+Internal Server Error: /report/ajax/verifyPkcs7/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 103, in verifyPkcs7
+    get_verifyPkcs7(report_id)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 84, in get_verifyPkcs7
+    LINK = "https://e-otsenka.uz{}".format(report.pdf_report.url)  # Here is the link
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/db/models/fields/files.py", line 61, in url
+    self._require_file()
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/db/models/fields/files.py", line 38, in _require_file
+    raise ValueError("The '%s' attribute has no file associated with it." % self.field.name)
+ValueError: The 'pdf_report' attribute has no file associated with it.
+[2021-03-15 20:18:42 +0000] [13487] [INFO] Starting gunicorn 20.0.4
+[2021-03-15 20:18:42 +0000] [13487] [INFO] Listening at: http://127.0.0.1:46710 (13487)
+[2021-03-15 20:18:42 +0000] [13487] [INFO] Using worker: sync
+[2021-03-15 20:18:42 +0000] [13490] [INFO] Booting worker with pid: 13490
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/script.js
+Not Found: /favicon.ico
+Not Found: /login/assets/js/bootstrap.min.js
+Not Found: /login/assets/js/script.js
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: attempt to write a readonly database
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/views.py", line 380, in user_login
+    login(request, user)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/contrib/auth/__init__.py", line 108, in login
+    request.session.cycle_key()
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py", line 344, in cycle_key
+    self.create()
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/contrib/sessions/backends/db.py", line 55, in create
+    self.save(must_create=True)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/contrib/sessions/backends/db.py", line 87, in save
+    obj.save(force_insert=must_create, force_update=not must_create, using=using)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/db/models/base.py", line 754, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/db/models/base.py", line 792, in save_base
+    force_update, using, update_fields,
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/db/models/base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/db/models/base.py", line 935, in _do_insert
+    using=using, raw=raw,
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/db/models/query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1397, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: attempt to write a readonly database
+Internal Server Error: /pdf/21/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/lib/utils.py", line 677, in open_for_read
+    return open_for_read_by_name(name,mode)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/lib/utils.py", line 612, in open_for_read_by_name
+    return open(name,mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'media/business-and-trade_1_1_SoYIo9T.png'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/lib/utils.py", line 684, in open_for_read
+    return getBytesIO(datareader(name) if name[:5].lower()=='data:' else urlopen(name).read())
+  File "/usr/lib/python3.6/urllib/request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.6/urllib/request.py", line 511, in open
+    req = Request(fullurl, data)
+  File "/usr/lib/python3.6/urllib/request.py", line 329, in __init__
+    self.full_url = url
+  File "/usr/lib/python3.6/urllib/request.py", line 355, in full_url
+    self._parse()
+  File "/usr/lib/python3.6/urllib/request.py", line 384, in _parse
+    raise ValueError("unknown url type: %r" % self.full_url)
+ValueError: unknown url type: 'media/business-and-trade_1_1_SoYIo9T.png'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/vid/makereport/DTPreport/pdf_report/views.py", line 22, in get
+    get_response(request, id)
+  File "/home/vid/makereport/DTPreport/pdf_report/views.py", line 69, in get_response
+    pdf.generate(context)
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 603, in generate
+    self.parse()
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 577, in parse
+    self.parser.Parse(self.xml)
+  File "../Modules/pyexpat.c", line 419, in StartElement
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 523, in handler
+    method(**attrs)
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 663, in image_start
+    self.canvas.drawImage(src, **args)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/pdfgen/canvas.py", line 985, in drawImage
+    imgObj = pdfdoc.PDFImageXObject(name, image, mask=mask)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/pdfbase/pdfdoc.py", line 2090, in __init__
+    src = open_for_read(source)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/lib/utils.py", line 688, in open_for_read
+    return open_for_read(name,mode)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/lib/utils.py", line 686, in open_for_read
+    raise IOError('Cannot open resource "%s"' % name)
+OSError: Cannot open resource "media/business-and-trade_1_1_SoYIo9T.png"
+Internal Server Error: /pdf/18/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/lib/utils.py", line 677, in open_for_read
+    return open_for_read_by_name(name,mode)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/lib/utils.py", line 612, in open_for_read_by_name
+    return open(name,mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'media/business-and-trade_1_1_GX2sQNN.png'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/lib/utils.py", line 684, in open_for_read
+    return getBytesIO(datareader(name) if name[:5].lower()=='data:' else urlopen(name).read())
+  File "/usr/lib/python3.6/urllib/request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.6/urllib/request.py", line 511, in open
+    req = Request(fullurl, data)
+  File "/usr/lib/python3.6/urllib/request.py", line 329, in __init__
+    self.full_url = url
+  File "/usr/lib/python3.6/urllib/request.py", line 355, in full_url
+    self._parse()
+  File "/usr/lib/python3.6/urllib/request.py", line 384, in _parse
+    raise ValueError("unknown url type: %r" % self.full_url)
+ValueError: unknown url type: 'media/business-and-trade_1_1_GX2sQNN.png'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/vid/makereport/DTPreport/pdf_report/views.py", line 22, in get
+    get_response(request, id)
+  File "/home/vid/makereport/DTPreport/pdf_report/views.py", line 69, in get_response
+    pdf.generate(context)
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 603, in generate
+    self.parse()
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 577, in parse
+    self.parser.Parse(self.xml)
+  File "../Modules/pyexpat.c", line 419, in StartElement
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 523, in handler
+    method(**attrs)
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 663, in image_start
+    self.canvas.drawImage(src, **args)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/pdfgen/canvas.py", line 985, in drawImage
+    imgObj = pdfdoc.PDFImageXObject(name, image, mask=mask)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/pdfbase/pdfdoc.py", line 2090, in __init__
+    src = open_for_read(source)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/lib/utils.py", line 688, in open_for_read
+    return open_for_read(name,mode)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/lib/utils.py", line 686, in open_for_read
+    raise IOError('Cannot open resource "%s"' % name)
+OSError: Cannot open resource "media/business-and-trade_1_1_GX2sQNN.png"
+Internal Server Error: /pdf/22/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/lib/utils.py", line 677, in open_for_read
+    return open_for_read_by_name(name,mode)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/lib/utils.py", line 612, in open_for_read_by_name
+    return open(name,mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'media/business-and-trade_1_1_8MdxEge.png'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/lib/utils.py", line 684, in open_for_read
+    return getBytesIO(datareader(name) if name[:5].lower()=='data:' else urlopen(name).read())
+  File "/usr/lib/python3.6/urllib/request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.6/urllib/request.py", line 511, in open
+    req = Request(fullurl, data)
+  File "/usr/lib/python3.6/urllib/request.py", line 329, in __init__
+    self.full_url = url
+  File "/usr/lib/python3.6/urllib/request.py", line 355, in full_url
+    self._parse()
+  File "/usr/lib/python3.6/urllib/request.py", line 384, in _parse
+    raise ValueError("unknown url type: %r" % self.full_url)
+ValueError: unknown url type: 'media/business-and-trade_1_1_8MdxEge.png'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/vid/makereport/DTPreport/pdf_report/views.py", line 22, in get
+    get_response(request, id)
+  File "/home/vid/makereport/DTPreport/pdf_report/views.py", line 69, in get_response
+    pdf.generate(context)
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 603, in generate
+    self.parse()
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 577, in parse
+    self.parser.Parse(self.xml)
+  File "../Modules/pyexpat.c", line 419, in StartElement
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 523, in handler
+    method(**attrs)
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 663, in image_start
+    self.canvas.drawImage(src, **args)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/pdfgen/canvas.py", line 985, in drawImage
+    imgObj = pdfdoc.PDFImageXObject(name, image, mask=mask)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/pdfbase/pdfdoc.py", line 2090, in __init__
+    src = open_for_read(source)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/lib/utils.py", line 688, in open_for_read
+    return open_for_read(name,mode)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/lib/utils.py", line 686, in open_for_read
+    raise IOError('Cannot open resource "%s"' % name)
+OSError: Cannot open resource "media/business-and-trade_1_1_8MdxEge.png"
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/script.js
+Internal Server Error: /report/ajax/get_service_cost/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 232, in get_service_cost
+    service_cost = int((float(norm_per_hour) + float(premium)) * float(price))
+ValueError: could not convert string to float: 
+Internal Server Error: /report/ajax/get_service_cost/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 232, in get_service_cost
+    service_cost = int((float(norm_per_hour) + float(premium)) * float(price))
+ValueError: could not convert string to float: 
+Invalid HTTP_HOST header: '185.196.214.176'. You may need to add '185.196.214.176' to ALLOWED_HOSTS.
+Bad Request: /owa/
+Not Found: /robots.txt
+Invalid HTTP_HOST header: '185.196.214.176'. You may need to add '185.196.214.176' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '185.196.214.176'. You may need to add '185.196.214.176' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '185.196.214.176'. You may need to add '185.196.214.176' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/script.js
+Not Found: /favicon.ico
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/script.js
+Not Found: /favicon.ico
+Not Found: /login/assets/js/bootstrap.min.js
+Not Found: /login/assets/js/script.js
+Not Found: /favicon.ico
+Internal Server Error: /report/ajax/get_service_ajax/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 159, in get_service_ajax
+    print(get_brand_nph(request))
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 224, in get_brand_nph
+    norm_per_hour = service.BRANDS.get(brand).value_from_object(service)
+AttributeError: 'NoneType' object has no attribute 'value_from_object'
+Not Found: /favicon.ico
+Invalid HTTP_HOST header: '185.196.214.176'. You may need to add '185.196.214.176' to ALLOWED_HOSTS.
+Bad Request: /admin//config.php
+Invalid HTTP_HOST header: '185.196.214.176'. You may need to add '185.196.214.176' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /favicon.ico
+Invalid HTTP_HOST header: '185.196.214.176'. You may need to add '185.196.214.176' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '185.196.214.176'. You may need to add '185.196.214.176' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '185.196.214.176'. You may need to add '185.196.214.176' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '185.196.214.176'. You may need to add '185.196.214.176' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '185.196.214.176'. You may need to add '185.196.214.176' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /favicon.ico
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /robots.txt
+[2021-03-16 12:15:28 +0000] [13490] [INFO] Worker exiting (pid: 13490)
+[2021-03-16 12:15:28 +0000] [13487] [INFO] Handling signal: term
+[2021-03-16 12:15:28 +0000] [13487] [INFO] Shutting down: Master
+[2021-03-16 12:15:29 +0000] [23546] [INFO] Starting gunicorn 20.0.4
+[2021-03-16 12:15:29 +0000] [23546] [INFO] Listening at: http://127.0.0.1:46710 (23546)
+[2021-03-16 12:15:29 +0000] [23546] [INFO] Using worker: sync
+[2021-03-16 12:15:29 +0000] [23550] [INFO] Booting worker with pid: 23550
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/script.js
+Not Found: /favicon.ico
+[2021-03-16 12:17:11 +0000] [23550] [INFO] Worker exiting (pid: 23550)
+[2021-03-16 12:17:11 +0000] [23546] [INFO] Handling signal: term
+[2021-03-16 12:17:11 +0000] [23546] [INFO] Shutting down: Master
+[2021-03-16 12:17:11 +0000] [23579] [INFO] Starting gunicorn 20.0.4
+[2021-03-16 12:17:11 +0000] [23579] [INFO] Listening at: http://127.0.0.1:46710 (23579)
+[2021-03-16 12:17:11 +0000] [23579] [INFO] Using worker: sync
+[2021-03-16 12:17:11 +0000] [23582] [INFO] Booting worker with pid: 23582
+Not Found: /login/assets/js/bootstrap.min.js
+Not Found: /login/assets/js/script.js
+Not Found: /login/assets/js/bootstrap.min.js
+Not Found: /login/assets/js/script.js
+Internal Server Error: /report/ajax/get_service_cost/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 232, in get_service_cost
+    service_cost = int((float(norm_per_hour) + float(premium)) * float(price))
+ValueError: could not convert string to float: 
+Internal Server Error: /report/ajax/get_service_cost/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 232, in get_service_cost
+    service_cost = int((float(norm_per_hour) + float(premium)) * float(price))
+ValueError: could not convert string to float: 
+Internal Server Error: /report/ajax/get_service_cost/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 232, in get_service_cost
+    service_cost = int((float(norm_per_hour) + float(premium)) * float(price))
+ValueError: could not convert string to float: 
+Internal Server Error: /report/ajax/get_service_cost/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 232, in get_service_cost
+    service_cost = int((float(norm_per_hour) + float(premium)) * float(price))
+ValueError: could not convert string to float: 
+Internal Server Error: /report/ajax/get_service_cost/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 232, in get_service_cost
+    service_cost = int((float(norm_per_hour) + float(premium)) * float(price))
+ValueError: could not convert string to float: 
+Internal Server Error: /report/ajax/get_service_cost/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 232, in get_service_cost
+    service_cost = int((float(norm_per_hour) + float(premium)) * float(price))
+ValueError: could not convert string to float: 
+Internal Server Error: /report/ajax/get_service_cost/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/utils.py", line 232, in get_service_cost
+    service_cost = int((float(norm_per_hour) + float(premium)) * float(price))
+ValueError: could not convert string to float: 
+Internal Server Error: /report/create/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/lib/utils.py", line 677, in open_for_read
+    return open_for_read_by_name(name,mode)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/lib/utils.py", line 612, in open_for_read_by_name
+    return open(name,mode)
+IsADirectoryError: [Errno 21] Is a directory: 'media/'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/lib/utils.py", line 684, in open_for_read
+    return getBytesIO(datareader(name) if name[:5].lower()=='data:' else urlopen(name).read())
+  File "/usr/lib/python3.6/urllib/request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.6/urllib/request.py", line 511, in open
+    req = Request(fullurl, data)
+  File "/usr/lib/python3.6/urllib/request.py", line 329, in __init__
+    self.full_url = url
+  File "/usr/lib/python3.6/urllib/request.py", line 355, in full_url
+    self._parse()
+  File "/usr/lib/python3.6/urllib/request.py", line 384, in _parse
+    raise ValueError("unknown url type: %r" % self.full_url)
+ValueError: unknown url type: 'media/'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/views.py", line 181, in post
+    create_base64(request,new_report)
+  File "/home/vid/makereport/DTPreport/pdf_report/views.py", line 101, in create_base64
+    pdf.generate(context)
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 603, in generate
+    self.parse()
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 577, in parse
+    self.parser.Parse(self.xml)
+  File "../Modules/pyexpat.c", line 419, in StartElement
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 523, in handler
+    method(**attrs)
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 663, in image_start
+    self.canvas.drawImage(src, **args)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/pdfgen/canvas.py", line 985, in drawImage
+    imgObj = pdfdoc.PDFImageXObject(name, image, mask=mask)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/pdfbase/pdfdoc.py", line 2090, in __init__
+    src = open_for_read(source)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/lib/utils.py", line 688, in open_for_read
+    return open_for_read(name,mode)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/lib/utils.py", line 686, in open_for_read
+    raise IOError('Cannot open resource "%s"' % name)
+OSError: Cannot open resource "media/"
+Internal Server Error: /report/create/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/lib/utils.py", line 677, in open_for_read
+    return open_for_read_by_name(name,mode)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/lib/utils.py", line 612, in open_for_read_by_name
+    return open(name,mode)
+IsADirectoryError: [Errno 21] Is a directory: 'media/'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/lib/utils.py", line 684, in open_for_read
+    return getBytesIO(datareader(name) if name[:5].lower()=='data:' else urlopen(name).read())
+  File "/usr/lib/python3.6/urllib/request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.6/urllib/request.py", line 511, in open
+    req = Request(fullurl, data)
+  File "/usr/lib/python3.6/urllib/request.py", line 329, in __init__
+    self.full_url = url
+  File "/usr/lib/python3.6/urllib/request.py", line 355, in full_url
+    self._parse()
+  File "/usr/lib/python3.6/urllib/request.py", line 384, in _parse
+    raise ValueError("unknown url type: %r" % self.full_url)
+ValueError: unknown url type: 'media/'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/views.py", line 181, in post
+    create_base64(request,new_report)
+  File "/home/vid/makereport/DTPreport/pdf_report/views.py", line 101, in create_base64
+    pdf.generate(context)
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 603, in generate
+    self.parse()
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 577, in parse
+    self.parser.Parse(self.xml)
+  File "../Modules/pyexpat.c", line 419, in StartElement
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 523, in handler
+    method(**attrs)
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 663, in image_start
+    self.canvas.drawImage(src, **args)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/pdfgen/canvas.py", line 985, in drawImage
+    imgObj = pdfdoc.PDFImageXObject(name, image, mask=mask)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/pdfbase/pdfdoc.py", line 2090, in __init__
+    src = open_for_read(source)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/lib/utils.py", line 688, in open_for_read
+    return open_for_read(name,mode)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/lib/utils.py", line 686, in open_for_read
+    raise IOError('Cannot open resource "%s"' % name)
+OSError: Cannot open resource "media/"
+Internal Server Error: /report/create/
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/lib/utils.py", line 677, in open_for_read
+    return open_for_read_by_name(name,mode)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/lib/utils.py", line 612, in open_for_read_by_name
+    return open(name,mode)
+IsADirectoryError: [Errno 21] Is a directory: 'media/'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/lib/utils.py", line 684, in open_for_read
+    return getBytesIO(datareader(name) if name[:5].lower()=='data:' else urlopen(name).read())
+  File "/usr/lib/python3.6/urllib/request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.6/urllib/request.py", line 511, in open
+    req = Request(fullurl, data)
+  File "/usr/lib/python3.6/urllib/request.py", line 329, in __init__
+    self.full_url = url
+  File "/usr/lib/python3.6/urllib/request.py", line 355, in full_url
+    self._parse()
+  File "/usr/lib/python3.6/urllib/request.py", line 384, in _parse
+    raise ValueError("unknown url type: %r" % self.full_url)
+ValueError: unknown url type: 'media/'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/home/vid/makereport/DTPreport/makereport/views.py", line 181, in post
+    create_base64(request,new_report)
+  File "/home/vid/makereport/DTPreport/pdf_report/views.py", line 101, in create_base64
+    pdf.generate(context)
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 603, in generate
+    self.parse()
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 577, in parse
+    self.parser.Parse(self.xml)
+  File "../Modules/pyexpat.c", line 419, in StartElement
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 523, in handler
+    method(**attrs)
+  File "/home/vid/makereport/DTPreport/pdf_report/utils.py", line 663, in image_start
+    self.canvas.drawImage(src, **args)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/pdfgen/canvas.py", line 985, in drawImage
+    imgObj = pdfdoc.PDFImageXObject(name, image, mask=mask)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/pdfbase/pdfdoc.py", line 2090, in __init__
+    src = open_for_read(source)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/lib/utils.py", line 688, in open_for_read
+    return open_for_read(name,mode)
+  File "/home/vid/makereport/DTPreport/env/lib/python3.6/site-packages/reportlab/lib/utils.py", line 686, in open_for_read
+    raise IOError('Cannot open resource "%s"' % name)
+OSError: Cannot open resource "media/"
+Not Found: /favicon.ico
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+[2021-03-19 19:17:48 +0000] [92224] [INFO] Starting gunicorn 20.0.4
+[2021-03-19 19:17:48 +0000] [92224] [INFO] Listening at: http://127.0.0.1:46710 (92224)
+[2021-03-19 19:17:48 +0000] [92224] [INFO] Using worker: sync
+[2021-03-19 19:17:48 +0000] [92227] [INFO] Booting worker with pid: 92227
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/script.js
+Not Found: /login/assets/js/script.js
+Not Found: /login/assets/js/bootstrap.min.js
+Not Found: /login/assets/js/bootstrap.min.js
+Not Found: /login/assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js

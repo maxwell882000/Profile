@@ -1,0 +1,20 @@
+@page {
+    margin: 0.8cm;
+    font-family: "Times New Roman", sans-serif;
+}
+* {
+    font-family: "Times New Roman", sans-serif;
+}
+.border {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.first-table td:first-child {
+    width: 30%;
+}
+
+.second-table td:first-child {
+    width: 20%;
+}
+

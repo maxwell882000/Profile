@@ -1,0 +1,164 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+[x-cloak] {
+    display: none !important;
+}
+
+.drop-down-button {
+    @apply inline-flex h-8  justify-center w-full items-center rounded-md border shadow-sm px-4  bg-white text-base font-medium  hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500;
+}
+
+.drop_element {
+    @apply hover:bg-white py-1 px-3 hover:border-r-4 border-blue-500 cursor-pointer
+}
+
+.drop_helper_text {
+    @apply flex flex-row items-center space-x-4 text-side_elem  hover:text-side_hovering w-full
+}
+
+.hover_side_item {
+    @apply transform hover:translate-x-2 cursor-pointer transition-transform ease-in duration-200
+}
+
+.table_main {
+    @apply text-sm text-table_color table-auto border-collapse border w-full my-2.5
+}
+
+.table_main_th {
+    @apply p-1 border font-semibold bg-gray-100 cursor-pointer text-center
+}
+
+.table_main_tr {
+    @apply text-center border-b border-gray-200
+}
+
+.table_main_td {
+    @apply border text-table_color  p-1.5
+}
+
+.icon_action {
+    @apply text-center px-1 py-0.5 hover:text-blue-300 hover:border-blue-300 border-2  rounded bg-white
+}
+
+.transition-custom {
+    overflow: hidden;
+    width: 0;
+    -webkit-transition: width 80ms ease-in-out;
+    -moz-transition: width 80ms ease-in-out;
+    -o-transition: width 80ms ease-in-out;
+    transition: width 80ms ease-in-out;
+}
+
+.width-sidebar {
+    width: 100% !important;
+}
+
+.sidebar-icon {
+    @apply flex flex-row justify-center items-center py-2 w-6;
+}
+
+.drop-down-block {
+    @apply origin-top-right absolute left-0 mt-2 w-max rounded-md
+    shadow bg-white ring-1 ring-black
+    z-50
+    ring-opacity-5 focus:outline-none;
+}
+
+.drop-down-item {
+    @apply text-gray-700 block px-4 py-2 text-xs  bg-white;
+}
+
+.main-back {
+    @apply xs:px-3 sm:px-10 md:px-16 lg:px-20 my-5;
+}
+
+.input-check {
+    @apply border
+    shadow
+    focus:outline-none focus:ring focus:border-gray-500
+    focus:border-green-50 rounded p-0.5
+}
+
+.input-custom {
+    @apply h-8 border
+    w-full
+    shadow
+    focus:outline-none focus:ring focus:border-gray-500
+    focus:border-green-50 rounded
+}
+
+@layer utilities {
+    .custom-slider .slick-list {
+        padding: 0 20% 0 0 !important;
+    }
+
+    .slick-prev-arrow, .slick-next-arrow {
+        font-size: 0;
+        line-height: 0;
+        display: block;
+        position: absolute;
+        top: 50%;
+        padding: 0;
+        width: 100px;
+        height: 50px;
+        /*@apply w-40;*/
+        -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+        cursor: pointer;
+        color: transparent;
+        border: none;
+        outline: none;
+        background: transparent;
+    }
+
+    .slick-next-arrow {
+        right: -60px;
+    }
+
+    .slick-prev-arrow {
+        left: -60px;
+    }
+
+    .slick-slide {
+        @apply mx-4;
+    }
+}
+
+/* Output */
+
+.animationNav {
+}
+
+@media (min-width: 300px) and (max-width: 639px) {
+    .xs\:custom-slider .slick-list {
+        padding: 0 10% 0 0 !important;
+    }
+}
+
+@media (min-width: 640px) {
+    .sm\:custom-slider .slick-list {
+        padding: 0 5% 0 0 !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .md\:custom-slider .slick-list {
+        padding: 0 15% 0 0 !important;
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:custom-slider .slick-list {
+        padding: 0 15% 0 0 !important;
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:custom-slider .slick-list {
+        padding: 0 20% 0 0 !important;
+    }
+}

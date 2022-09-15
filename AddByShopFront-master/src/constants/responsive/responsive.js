@@ -1,0 +1,1 @@
+export const isMobile = screen.width <= 768

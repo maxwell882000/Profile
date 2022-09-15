@@ -1,0 +1,41 @@
+$padding: 0.8rem;
+$paddingOrders: 0.6rem;
+$paddingTable: $padding + $paddingOrders;
+.orders {
+  background-color: white;
+  border-radius: var(--borderRadius);
+  padding: $padding !important;
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+  color: var(--dark);
+}
+
+.last span {
+  font-size: 0.9rem;
+}
+
+p {
+  margin-bottom: 0px;
+}
+
+.button-order {
+  width: max-content;
+}
+.button-order button{
+  margin: 0;
+}
+
+.order-user span {
+  font-size: 0.85rem;
+}
+
+
+.key-value {
+  display: flex !important;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.orders section {
+  padding: $paddingOrders;
+}
